@@ -32,6 +32,7 @@ public class ArrayProcessing {
         for(int i = 0; i<arr.length; i++){
             a = a + arr[i];
         }
+       
         System.out.println("\n");
         int b = a/(arr.length);
         System.out.println("sum of Array element = "+a);
