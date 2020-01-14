@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class ArrayOperation {
     Scanner sc = new Scanner(System.in);
-
-    public void Insert(int arr[]) {
+   public void Insert(int arr[]) {
         System.out.println("Enter the position to insert the element");
         int pos = sc.nextInt();
         System.out.println("Enter the value to insert in array :");
