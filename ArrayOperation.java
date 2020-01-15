@@ -34,7 +34,6 @@ public class ArrayOperation {
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
-
             }
         }
         System.out.println("Sorted array is " + Arrays.toString(arr));
@@ -51,8 +50,6 @@ public class ArrayOperation {
                     System.out.println("Element not found");
                 }
             }
-
-
         }
 
     public static void main(String[] args) {
@@ -80,4 +77,3 @@ public class ArrayOperation {
           System.out.println("Enter a valid number ");
     }
 }
-
