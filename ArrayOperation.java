@@ -58,9 +58,12 @@ public class ArrayOperation {
             ao.Deletion(arr);
         } else if (choice == 3) {
             ao.sort(arr);
-        } else {
-            System.out.println("Enter a valid number  ");
+        } 
+        else if (choice == 4) {
+            ao.searching(arr);
         }
+        else{
+          System.out.println("Enter a valid number ");
     }
 }
 
