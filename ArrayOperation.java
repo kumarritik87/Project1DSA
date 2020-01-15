@@ -40,6 +40,20 @@ public class ArrayOperation {
         System.out.println("Sorted array is " + Arrays.toString(arr));
 
     }
+            public void searching(int arr[]){
+            System.out.println("ENter the element to search : ");
+            int element  = sc.nextInt();
+            for(int i = 0; i<arr.length; i++){
+                if(arr[i] == element){
+                    System.out.println("Element found");
+                }
+                else {
+                    System.out.println("Element not found");
+                }
+            }
+
+
+        }
 
     public static void main(String[] args) {
         int arr[] = new int[5];
